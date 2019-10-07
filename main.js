@@ -427,6 +427,8 @@ var NorthernLights = function(parentElement, width, height, curves) {
             document.addEventListener('click', () => {
                 if (north.classList.contains('active')) {
                     this.canvas.style.display = 'block';
+                } else {
+                    this.canvas.style.display = 'none';
                 }
             })
 
